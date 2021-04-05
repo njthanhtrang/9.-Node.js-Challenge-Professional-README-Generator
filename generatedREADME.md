@@ -1,15 +1,15 @@
 
-![License Badge](https://img.shields.io/badge/License-GPL(3.0)-green.svg)
+![License Badge](https://img.shields.io/badge/License-APACHE(2.0)-green.svg)
 
-#### GitHub Username: lsfjsd
+#### GitHub Username: njthanhtrang
 
-#### GitHub Email Address: sldfjk
+#### GitHub Email Address: njthanhtrang@gmail.com
 
 
-# sdfljsdf
+# Run Buddy
 
 ## Description
-sdlfjk
+Run Buddy is a website that offers personal training services.
 
 ## Table of Contents
 * [Languages](#languages)
@@ -21,27 +21,29 @@ sdlfjk
 * [Questions](#questions)
 * [License](#license)
 ## Built With:
+* Javascript
 * HTML
+* CSS
 
 ## Installation
 - npm install
 
 ## Usage
-lsdfj
+Sign up on the deployed URL.
 
 ## Contributors
-- lsdfj
+- Jennifer N
 
 ## Website
-alekfsdj
+https://njthanhtrang.github.io/run-buddy
 
 ## Tests
 - npm test
 
 ## Questions
-For additional questions and information, please see the creator's GitHub profile here: github.com/lsfjsd/
-or reach out through email at sldfjk.
+For additional questions and information, please see the creator's GitHub profile here: github.com/njthanhtrang/
+or reach out through email at njthanhtrang@gmail.com.
 
 ## License
-Copyright &copy;2021 by lsdfj.
-Licensed under the GPL(3.0) license.
+Copyright &copy;2021 by Jennifer N.
+Licensed under the APACHE(2.0) license.

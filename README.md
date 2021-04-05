@@ -12,21 +12,27 @@ In the future, this project may be improved for editability.
 * Node.js
 
 # Installation
-1. Clone Git repository, naviate to the folder and run the following commands in order, in your command line:
+1. Clone the Git repository. Navigate to the folder and run the following commands in your command line to install the npm package dependencies.
 2. "npm init"
 3. "npm install inquirer"
-4. "node index.js"
+4. Invoke the application with "node index.js"
 
 # Usage
-Answer prompts in command line to generate README.md
+Answer prompts in command line to generate README.md.
+
+# Demonstration
+https://youtu.be/zyqrzNpHfAQ
 
 # Credits
-Starter code retrieved from: https://github.com/coding-boot-camp/potential-enigma. Made with the gracious help of TAs Wesley Tran and John Baxter.
+Starter code retrieved from: https://github.com/coding-boot-camp/potential-enigma. Made with the gracious mentorship of TAs Wesley Tran and John Baxter.
 
-# Website
+# Repo Website
 https://njthanhtrang.github.io/9.-Node.js-Challenge-Professional-README-Generator/
+
+# Questions
+For additional questions and information, please go to github.com/njthanhtrang/
+or reach out via email at njthanhtrang@gmail.com.
 
 # License
 Copyright 2019 Horiseon Social Solution Services, Inc.
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
-
