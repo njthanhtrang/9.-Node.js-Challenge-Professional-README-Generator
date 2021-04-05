@@ -14,13 +14,15 @@
 // function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
+
 function generateMarkdown(data) {
 let output = `
 ![License Badge](https://img.shields.io/badge/License-${data.license}-green.svg)
 
-### GitHub Username: ${data.github}
+#### GitHub Username: ${data.github}
 
-### GitHub Email Address: ${data.email}
+#### GitHub Email Address: ${data.email}
+
 
 # ${data.title}
 
@@ -33,12 +35,14 @@ ${data.description}
 * [Usage](#usage)
 * [Contributions](#contributions)
 * [Website](#website)
-* [Testing](#testing)`;
+* [Testing](#testing)
+* [Questions](#questions)
+* [License](#license)`;
 
-// regular expression
+// regular expression (REGEX)
 data.languages = data.languages.toString().replace(/[ ]*,[ ]*|[ ]+/g, '\n* ');
 output += `
-## Built With
+## Built With:
 * ${data.languages}
 
 ## Installation
@@ -47,7 +51,7 @@ output += `
 ## Usage
 ${data.usage}
 
-## Contributions
+## Contributors
 - ${data.contributing}
 
 ## Website
@@ -56,9 +60,13 @@ ${data.website}
 ## Tests
 - ${data.test}
 
-## License
-- ${data.license}
+## Questions
+For more information, please see the creator's GitHub repository here: github.com/${data.github}/
+or reach out through email at ${data.email}.
 
+## License
+Copyright &copy;${new Date().getFullYear()} by ${data.contributing}.
+Licensed under the ${data.license} license.
 `;
 return output;
 }

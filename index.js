@@ -2,6 +2,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
+const { loadFromBuffer } = require("bser");
 
 // TODO: Create an array of questions for user input
 const questions = () => {
@@ -50,12 +51,12 @@ const questions = () => {
       type: "list",
       name: "license",
       message: "What kind of license should your project have? (Required)",
-      choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"],
+      choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "MPL 2.0", "CDDL 1.0", "EPL 2.0", "None"],
       validate: (projectLicense) => {
         if (projectLicense) {
           return true;
         } else {
-          console.log("Please choose your project license type!");
+          console.log("Please choose a project license type!");
           return false;
         }
       },
@@ -63,13 +64,13 @@ const questions = () => {
     {
       type: "input",
       name: "installation",
-      message: "What command should be run to install dependencies?",
+      message: "What command(s) should be run to install dependencies?",
       default: "npm install",
     },
     {
       type: "input",
       name: "test",
-      message: "What command should be run to run tests?",
+      message: "What command(s) should be run to run tests?",
       default: "npm test",
     },
     {
@@ -133,9 +134,9 @@ const questions = () => {
 };
 
 // TODO: Create a function to write README file
-const writeToFile = (data) => {
+const writeToFile = data => {
   return new Promise((resolve, reject) => {
-    fs.writeFile("./README.md", data, (err) => {
+    fs.writeFile("./generatedREADME.md", data, err => {
       if (err) {
         reject(err);
         // return out of the function here to make sure the Promise doesn't accidentally execute resolve() too
@@ -157,7 +158,7 @@ function init() {
     // template literal send to writeToFile
     .then((res) => {
       writeToFile(res);
-      console.log("README.md generated!");
+      console.log("Success! Check out your generatedREADME.md");
     });
 }
 

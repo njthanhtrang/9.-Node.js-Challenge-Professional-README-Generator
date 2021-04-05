@@ -1,43 +1,30 @@
+# 9.-Node.js-Challenge-Professional-README-Generator
 
-![License Badge](https://img.shields.io/badge/License-MIT-green.svg)
+# Purpose
+Using the command line interface, this application dynamically generates a professional README.md file for open source projects on GitHub, allowing project creators to devote more time to working on their projects. User's input is captured using Node Package Manager's Inquirer package.
 
-### GitHub Username: ksjdflsdkfj
+This application specifically prompts for information about the application repository through a series of questions and generates a README.md with the Title, Description, Table of Contents, Installation instructions, Usage, License, Contributing, Tests and Questions sections.
 
-### GitHub Email Address: ajdlfkjdslfk
+# Built With
+* JavaScript
+* Node.js
 
-# dsfkjsdlfkdjs
+# Installation
+1. Clone Git repository and run the following commands in order, in your command line:
+2. "npm init"
+3. "npm install inquirer"
+4. "node index.js"
 
-## Description
-fkhdskdj
+# Usage
+Answer prompts in command line to generate README.md
 
-## Table of Contents
-* [Languages](#languages)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Contributions](#contributions)
-* [Website](#website)
-* [Testing](#testing)
-## Built With
-* Javascript
-* HTML
-* CSS
-* ES6
+# Credits
+Starter code retrieved from: https://github.com/coding-boot-camp/potential-enigma
 
-## Installation
-- npm install
+# Website
+https://njthanhtrang.github.io/9.-Node.js-Challenge-Professional-README-Generator/
 
-## Usage
-
-
-## Contributions
-- Jen
-
-## Website
-github
-
-## Tests
-- npm test
-
-## License
-- MIT
+# License
+Copyright 2019 Horiseon Social Solution Services, Inc.
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
 
