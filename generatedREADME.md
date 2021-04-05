@@ -1,15 +1,15 @@
 
-![License Badge](https://img.shields.io/badge/License-MPL 2.0-green.svg)
+![License Badge](https://img.shields.io/badge/License-GPL(3.0)-green.svg)
 
-#### GitHub Username: njthanhtrang
+#### GitHub Username: lsfjsd
 
-#### GitHub Email Address: skdfjsdlkf
+#### GitHub Email Address: sldfjk
 
 
-# Run Buddy
+# sdfljsdf
 
 ## Description
-Run Buddyskdjfhsldkfjsdklf
+sdlfjk
 
 ## Table of Contents
 * [Languages](#languages)
@@ -21,29 +21,27 @@ Run Buddyskdjfhsldkfjsdklf
 * [Questions](#questions)
 * [License](#license)
 ## Built With:
-* Javascript
 * HTML
-* CSS
 
 ## Installation
 - npm install
 
 ## Usage
-
+lsdfj
 
 ## Contributors
-- dakfjsdlkf
+- lsdfj
 
 ## Website
-lsdfjsdlkf
+alekfsdj
 
 ## Tests
 - npm test
 
 ## Questions
-For additional questions and information, please see the creator's GitHub profile here: github.com/njthanhtrang/
-or reach out through email at skdfjsdlkf.
+For additional questions and information, please see the creator's GitHub profile here: github.com/lsfjsd/
+or reach out through email at sldfjk.
 
 ## License
-Copyright &copy;2021 by dakfjsdlkf.
-Licensed under the MPL 2.0 license.
+Copyright &copy;2021 by lsdfj.
+Licensed under the GPL(3.0) license.

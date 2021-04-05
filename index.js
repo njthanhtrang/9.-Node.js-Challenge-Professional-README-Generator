@@ -64,7 +64,7 @@ const questions = () => {
       type: "list",
       name: "license",
       message: "Please select a license for your project (Required):",
-      choices: ["MIT", "APACHE-2.0", "GPL-3.0", "BSD-3", "MPL-2.0", "CDDL-1.0", "EPL-2.0", "None"],
+      choices: ["MIT", "APACHE(2.0)", "GPL(3.0)", "BSD(3)", "MPL(2.0)", "CDDL(1.0)", "EPL(2.0)", "None"],
       validate: (projectLicense) => {
         if (projectLicense) {
           return true;
