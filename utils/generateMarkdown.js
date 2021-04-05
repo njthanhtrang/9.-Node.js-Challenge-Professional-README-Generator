@@ -61,7 +61,7 @@ ${data.website}
 - ${data.test}
 
 ## Questions
-For more information, please see the creator's GitHub repository here: github.com/${data.github}/
+For additional questions and information, please see the creator's GitHub profile here: github.com/${data.github}/
 or reach out through email at ${data.email}.
 
 ## License

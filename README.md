@@ -10,7 +10,7 @@ This application specifically prompts for information about the application repo
 * Node.js
 
 # Installation
-1. Clone Git repository and run the following commands in order, in your command line:
+1. Clone Git repository, naviate to the folder and run the following commands in order, in your command line:
 2. "npm init"
 3. "npm install inquirer"
 4. "node index.js"

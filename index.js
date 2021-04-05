@@ -8,6 +8,19 @@ const { loadFromBuffer } = require("bser");
 const questions = () => {
   return inquirer.prompt([
     {
+        type: "input",
+        name: "github",
+        message: "Please enter your GitHub Username (Required)",
+        validate: (githubInput) => {
+          if (githubInput) {
+            return true;
+          } else {
+            console.log("Please enter your GitHub username!");
+            return false;
+          }
+        },
+      },
+    {
       type: "input",
       name: "title",
       message: "What is your project title? (Required)",
@@ -23,7 +36,7 @@ const questions = () => {
     {
       type: "input",
       name: "description",
-      message: "Please write a short description of your project (Required)",
+      message: "Please enter a short description of your project (Required)",
       validate: (projectDescription) => {
         if (projectDescription) {
           return true;
@@ -50,7 +63,7 @@ const questions = () => {
     {
       type: "list",
       name: "license",
-      message: "What kind of license should your project have? (Required)",
+      message: "Please select a license for your project (Required):",
       choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "MPL 2.0", "CDDL 1.0", "EPL 2.0", "None"],
       validate: (projectLicense) => {
         if (projectLicense) {
@@ -93,19 +106,6 @@ const questions = () => {
       },
     {
       type: "input",
-      name: "github",
-      message: "Enter your GitHub Username (Required)",
-      validate: (githubInput) => {
-        if (githubInput) {
-          return true;
-        } else {
-          console.log("Please enter your GitHub username!");
-          return false;
-        }
-      },
-    },
-    {
-      type: "input",
       name: "email",
       message: "What's your email address? (Required)",
       validate: (emailInput) => {
@@ -120,7 +120,7 @@ const questions = () => {
     {
       type: "input",
       name: "contributing",
-      message: "Please enter contributor name(s):",
+      message: "Please enter the contributor name(s) for this project:",
       validate: (contributorName) => {
         if (contributorName) {
           return true;
