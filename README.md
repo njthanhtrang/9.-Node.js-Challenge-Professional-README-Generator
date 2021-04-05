@@ -1,9 +1,11 @@
 # 9.-Node.js-Challenge-Professional-README-Generator
 
 # Purpose
-Using the command line interface, this application dynamically generates a professional README.md file for open source projects on GitHub, allowing project creators to devote more time to working on their projects. User's input is captured using Node Package Manager's Inquirer package.
+Using the command line interface, this application dynamically generates a professional README.md file for open source projects on GitHub, allowing project creators to devote more time to working on their projects. User's input is generated and captured using Node Package Manager's Inquirer package.
 
 This application specifically prompts for information about the application repository through a series of questions and generates a README.md with the Title, Description, Table of Contents, Installation instructions, Usage, License, Contributing, Tests and Questions sections.
+
+In the future, this project may be improved for editability.
 
 # Built With
 * JavaScript
@@ -19,7 +21,7 @@ This application specifically prompts for information about the application repo
 Answer prompts in command line to generate README.md
 
 # Credits
-Starter code retrieved from: https://github.com/coding-boot-camp/potential-enigma
+Starter code retrieved from: https://github.com/coding-boot-camp/potential-enigma. Made with the gracious help of TAs Wesley Tran and John Baxter.
 
 # Website
 https://njthanhtrang.github.io/9.-Node.js-Challenge-Professional-README-Generator/
